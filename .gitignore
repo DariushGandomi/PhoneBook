@@ -34,5 +34,5 @@ bin/
 ### iml ###
 PhoneBook.iml
 
-### Manifest ###
+### Manifest file ###
 src/META-INF
