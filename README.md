@@ -49,7 +49,7 @@ This is a simple **PhoneBook** application written in Java. The application allo
 
    git clone https://github.com/DariushGandomi/PhoneBook.git
 
-**Navigate to the Directory**:
+**Navigate to the Directory**
 
 
 **Run the Application**:
