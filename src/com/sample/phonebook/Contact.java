@@ -15,6 +15,6 @@ public class Contact {
     @Override
     public String toString(){
         return "-----------------------------------------\n" +
-                "name: " + name + ", number: " + number;
+                "name : " + name + ", number : " + number;
     }
 }
