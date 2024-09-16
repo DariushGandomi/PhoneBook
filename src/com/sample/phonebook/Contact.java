@@ -13,8 +13,7 @@ public class Contact {
 
     //    toString method with this method we can return private fields data
     @Override
-    public String toString(){
-        return "-----------------------------------------\n" +
-                "name : " + name + ", number : " + number;
+    public String toString() {
+        return "Name : " + name + ", PhoneNumber : " + number;
     }
 }
