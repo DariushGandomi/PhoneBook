@@ -16,7 +16,7 @@ public class PhoneBook {
 
         label:
         while(true){
-            System.out.println("-----------------------------");
+            System.out.println("--------------------------------------------------------------------");
             System.out.println("1. Add  a contact ");
             System.out.println("2. Show all available contacts ");
             System.out.println("3. Exit the app ");
@@ -29,17 +29,18 @@ public class PhoneBook {
                     System.out.println("Enter Contact's Number :");
                     String userNumber = scanner.nextLine();
                     contacts.add(new Contact(userName, userNumber));
-                    System.out.println("-----------------------------");
+                    System.out.println("--------------------------------------------------------------------");
                     System.out.println("Contact added successfully");
                     break;
 
                 case "2":
                     if (contacts.isEmpty()){
-                        System.out.println("-----------------------------");
+                        System.out.println("--------------------------------------------------------------------");
                         System.out.println("No contacts Available !");
                     }
                     else {
                         for (Contact contact : contacts){
+                            System.out.println("--------------------------------------------------------------------");
                             System.out.println(contact);
                         }
                     }
@@ -52,7 +53,7 @@ public class PhoneBook {
                     break label;
 
                 default:
-                    System.out.println("-----------------------------");
+                    System.out.println("--------------------------------------------------------------------");
                     System.out.println("Invalid input, please enter only 1 or 2 or 3");
                     break;
             }
